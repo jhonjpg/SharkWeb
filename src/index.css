@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    padding: 0;
+}
+
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    /* line-height: 1.5;
+    font-weight: 400;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
+    padding: 0px;
+}
+
+.shark {
+    mix-blend-mode: hard-light
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #c8d6da, #14a5c5, #0f4f5d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0px 40px 50px rgb(60 170 197);
+    font-weight: bold;
+}
+
+.sharkSpecie {
+    filter: contrast(100%);
+    filter: brightness(40%);
+    mix-blend-mode: luminosity;
+}
+
+.sharkSpecieLi::after {
+    content: "";
+    position: relative;
+    width: 30px;
+    background-color: white;
+    height: 30px;
+    border-radius: 100%;
+    top: 0px;
+    right: 0px;
+    transform: translate(0.3em, -1.5em)
+}
+
+.demon::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    background-color: white;
+    height: 30px;
+    border-radius: 100%;
+    top: 18%;
+    left: 9%;
+}

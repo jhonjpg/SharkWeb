@@ -1,0 +1,28 @@
+[{
+        "name": "Great White Shark",
+        "description": "Powerful, fast, and precise — the apex predator of the ocean. Known for its massive size and fearsome reputation, the great white is a true marvel of evolution.",
+        "image": "/assets/sharkPic/sharkW.png"
+    },
+    {
+        "name": "Hammerhead Shark",
+        "description": "Easily recognizable by its wide, flat head. This unique shape gives it excellent vision and helps it detect prey hidden under the sand.",
+        "image": "/assets/sharkPic/hammerShark.png"
+    },
+    {
+        "name": "Whale Shark",
+        "description": "Despite its size, this gentle giant is a filter feeder that poses no threat to humans. It cruises the warm waters, feeding on plankton and small fish.",
+        "image": "/assets/sharkPic/whaleShark.png"
+    },
+    {
+        "name": "Tiger Shark",
+        "description": "Named for the dark stripes on its body, it’s one of the most aggressive species and will eat just about anything.",
+        "image": "/assets/sharkPic/tigerShark.png"
+    },
+    {
+        "name": "Bull Shark",
+        "description": "Able to survive in both salt and freshwater, bull sharks are strong, territorial, and often found in rivers and estuaries.",
+        "image": "/assets/sharkPic/bullShark.png"
+    }
+
+
+]

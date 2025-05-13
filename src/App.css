@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(rgb(30 127 173), #183d4f, black, black, black, blue);
+}
+
+.diver {
+    box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
+}
+
+.moveShark {
+    transform-style: preserve-3d;
+    animation: screw3D 10s linear infinite;
+}
+
+@keyframes screw3D {
+    0% {
+        transform: translateX(0) translateY(-10px);
+    }
+    25% {
+        transform: translateX(10px) translateY(-10px);
+    }
+    50% {
+        transform: translateX(0) translateY(-10px);
+    }
+    75% {
+        transform: translateX(-10px) translateY(-10px);
+    }
+    100% {
+        transform: translateX(0) translateY(-10px);
+    }
+}
