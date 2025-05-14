@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
+
 export default defineConfig({
-    base: "sharkweb",
-    plugins: [react()]
+    base: '/sharkweb/', // <-- SLASH al inicio y al final
+    plugins: [react()],
 })
